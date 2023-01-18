@@ -88,7 +88,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
               className="flex justify-between items-center w-full"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://www.linkedin.com/in/jaya-prakash-m"
             >
               Linkedin <FaLinkedin size={30} />
@@ -97,7 +97,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 text-white-600">
             <a
               className="flex justify-between items-center w-full"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://github.com/jayaprakashjaypee"
             >
               Github <FaGithub size={30} />
@@ -106,7 +106,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white-600">
             <a
               className="flex justify-between items-center w-full"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="mailto:jayaprakash.m786@gmail.com"
             >
               Email
@@ -116,7 +116,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white-600">
             <a
               className="flex justify-between items-center w-full"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://drive.google.com/file/d/177gfetq-w3q8EXNwyDcQSEtG_-aLv1Ur/view?usp=share_linkvvv"
             >
               Resume
