@@ -37,18 +37,19 @@ const Home = () => {
         <div>
           <div className="flex row smallContainer">
             <div className="flex-col">
-              <a
-                className="flex items-center pr-3 py-2 my-2"
-                target="_blank"  rel="noopener"
-                href="https://www.linkedin.com/in/jaya-prakash-2089a9210//"
-              >
-                <FaLinkedin size={30} />
-                <span className="ml-3">Linkedin</span>
-              </a>
+            <a
+            className="flex items-center pr-3 py-2 my-2"
+            target="_blank" rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/jaya-prakash-2089a9210/"
+        >
+            <FaLinkedin size={30} />
+            <span className="ml-3">Linkedin</span>
+        </a>
+        
               
               <a
                 className="flex items-center pr-3 py-2 my-2"
-                target="_blank"  rel="noopener"
+                target="_blank" rel="noopener noreferrer"
                 href="https://github.com/jayaprakashjaypee"
               >
                 <FaGithub size={30} />
@@ -58,7 +59,7 @@ const Home = () => {
             <div className="flex-col">
               <a
                 className="flex items-center pr-3 py-2 my-2"
-                target="_blank"  rel="noopener"
+                target="_blank" rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/177gfetq-w3q8EXNwyDcQSEtG_-aLv1Ur/view?usp=share_lin"
               >
                 <BsFillPersonLinesFill size={30} />
@@ -66,7 +67,7 @@ const Home = () => {
               </a>
               <a
                 className="flex items-center  py-2 my-2 "
-                target="_blank"  rel="noopener"
+                target="_blank" rel="noopener noreferrer"
                 href="mailto:jayaprakash.m786@gmail.com"
               >  
                 <HiOutlineMail size={30} />
@@ -81,3 +82,4 @@ const Home = () => {
 };
 
 export default Home;
+
