@@ -10,7 +10,10 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#C1EFFF] to-zinc-50">
       <div>
-      <h1 className="text-3xl font-signature ml-2">Jayaprakash M</h1>
+      <h1 className="text-3xl font-signature ml-2" style={{fontFamily:"Brush Script MT"}}>Jayaprakash M</h1>
+
+
+
     </div>
 
       {/* menu */}
@@ -117,7 +120,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full"
               target="_blank" rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/177gfetq-w3q8EXNwyDcQSEtG_-aLv1Ur/view?usp=share_linkvvv"
+              href="https://drive.google.com/file/d/1vPOQPTtmy3f7pK9y_aDXZh93At0vrAF8/view?usp=share_link"
             >
               Resume
               <BsFillPersonLinesFill size={30} />
